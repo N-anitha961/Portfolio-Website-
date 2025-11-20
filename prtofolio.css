@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: #f5f7ff;
+    color: #333;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #5a3bfd, #7b5bff);
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.title span {
+    color: #ffe24b;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 22px;
+    background: #ffe24b;
+    color: #000;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #fff;
+}
+
+/* Section Titles */
+.section-title {
+    text-align: center;
+    margin: 40px 0 20px;
+    font-size: 28px;
+    font-weight: 600;
+    color: #5236f4;
+}
+
+/* About */
+#about {
+    text-align: center;
+    padding: 0 20px;
+}
+
+.about-text {
+    max-width: 700px;
+    margin: auto;
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+/* Projects Grid */
+#projects {
+    padding: 20px;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.project-card {
+    background: white;
+    padding: 20px;
+    border-radius: 18px;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
+    transition: 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+}
+
+.project-btn {
+    display: inline-block;
+    margin-top: 10px;
+    color: #5236f4;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/* Contact */
+#contact {
+    text-align: center;
+    padding: 30px;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #ecebff;
+    margin-top: 20px;
+    font-size: 14px;
+}
